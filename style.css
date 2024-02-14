@@ -53,6 +53,7 @@ nav ul li a:hover{
 	padding: 10px 25px;
 	border-radius: 30px;
 	transition: transform .4s; 
+	cursor: pointer;
 }
 .btn:hover{
 	transform: scale(1.2);
@@ -64,7 +65,7 @@ nav ul li a:hover{
 	transform: translateY(-50%);
 }
 h1{
-	color: #6F524B;
+	color: #ffffff;
 	margin: 20px 0px 20px;
 	font-size: 75px;
 }
@@ -134,7 +135,14 @@ h3{
 	text-transform: capitalize;
 }
 .about-text p{
-	color: #fcfc;
+	color: rgb(255, 255, 255);
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+#popupp{
+	color: rgb(255, 255, 255);
 	letter-spacing: 1px;
 	line-height: 28px;
 	font-size: 18px;
@@ -221,7 +229,7 @@ h5{
 }
 .contact-me{
 	width: 100%;
-	height: 290px;
+	height: 50vh;
 	background: #191919;
 	display: flex;
 	align-items: center;
@@ -306,3 +314,113 @@ html{
 #mypic{
 	width: 550px;
 }
+.item{
+
+	object-fit: cover;
+	
+}
+.slider{
+    width: 1000px;
+    max-width: 70vw;
+    height: 1500px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+	aspect-ratio: 16/9;
+
+}
+.slider .list{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+
+}
+.slider .list img{
+    width: 1000px;
+    max-width: 70vw;
+    height: 100%;
+    object-fit: cover;
+
+}
+.slider .buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.slider .buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.slider .dots{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.slider .dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.slider .dots li.active{
+    width: 30px;
+}
+@media screen and (max-width: 768px){
+    .slider{
+        height: 400px;
+    }
+}
+
+
+
+  /* Popup Styles */
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+	background-image: url(assets/popup.jpg);
+  }
+  
+
+  
+  /* Blurred Background */
+  .blur-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+    display: none;
+  }
