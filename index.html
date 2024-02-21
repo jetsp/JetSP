@@ -10,18 +10,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 <body>
+	<div id="cursor"></div>
 	<div class="hero">
 		<nav>
 			<h2 class="logo"><span>PORT</span>FOLIO</h2>
-			<a class="btn" href="#cjump">Head to Contact Number</a>
 		</nav>
 	</div>
 	<div class="content">
-		<h1 id="typingArea">Hello!<br>My Name's <span>Jet Roe</span><br>and <span>THIS</span> is my <br><span>PORT</span>FOLIO</h1>
-	  </div>
+		<h1 id="typingArea">Hello!<br>My Name is <span>Jet Roe</span><br>and <span>THIS</span> is my <br><span>PORT</span>FOLIO</h1>
+	</div>
 	<section class="about">
 		<div class="main" id="about">
 			<img id="mypic" src="assets/pic2ov.png">
@@ -29,8 +28,7 @@
 				<h2>About Me</h2>
 				<h5>Jet Roe San Pedro -<span> IT Software/Hardware & Graphic Designer</span></h5>
 				<p>I am a Bachelor of Industrial Technology Major in Computer at Bulacan State University in the Philippines. 
-					I hope to acquire more valuable knowledge and experience in an Actual Work Environment and expand what I have learned from school.
-					In return, I offer the utmost of my ability and determination to be a big asset to an institution.</p>
+					I design and develop things. My works consists of Photo Manipulation, Photo and Video Editing/Enhancing, Digital and Traditional Illustrations, etc.</p>
 			</div>
 		</div>
 	</section>
@@ -46,10 +44,7 @@
 	  <div id="blurBackground" class="blur-background"></div>
 	  
 	<div class="service">
-		<div class="title">
-			<h2>Skills</h2>
-		</div>
-
+		<div class="skill"><h2>SKILLS</h2></div>
 		<div class="box">
 			<div class="card">
 				<i class="fas fa-pencil-alt" ></i>
@@ -110,62 +105,117 @@
 				</div>
 			</div>
 		</div>
-	<div class="title">
-		<h2>PROJECTS</h2><center>
-		<i<section class="scontainer">
-			<div class="slider">
-				<div class="list">
-					<div class="item">
-						<img src="assets/chibiomen.png" alt="">
-					</div>
-					<div class="item">
-						<img src="assets/ironshit.jpg" alt="">
-					</div>
-					<div class="item">
-						<img src="assets/jampongicon.png" alt="">
-					</div>
-					<div class="item">
-						<img src="assets/Kazari's Mask.png" alt="">
-					</div>
-					<div class="item">
-						<img src="assets/kobe.png" alt="">
-					</div>
-					<div class="item">
-						<img src="assets/kamadoraiden1.png" alt="">
-					</div>
-					<div class="item">
-						<img src="assets/parry hotter.jpg" alt="">
-					</div>
-					<div class="item">
-						<img src="assets/pennywiseinverted.jpg" alt="">
-					</div>
-					<div class="item">
-						<img src="assets/tori.png" alt="">
-					</div>
-					<div class="item">
-						<img src="assets/ws.png" alt="">
-					</div>
-				</div>
-				<div class="buttons">
-					<button id="prev"></button>
-					<button id="next">></button>
-				</div>
-				<ul class="dots">
-					<li class="active"></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-			</div>
-			</div>
-		</section></center>
 	</div>
 	</div>
+	<div class="projects">
+		<div class="project-title"><h2>projects</h2></div>
+		<section class="slider-container">
+			<div class="slider-images">
+			  <div class="slider-img">
+				<img src="assets/chibiomen.png" alt="1" />
+				<div class="details">
+				  <h2>Line Art</h2>
+				  <p>A request to make a cartoon version of the character Omen from Valorant</p>
+				</div>
+			  </div>
+			  <div class="slider-img">
+				<img src="assets/ironshit.jpg" alt="2" />
+				<div class="details">
+				  <h2>Charcoal Drawing</h2>
+				  <p>Commissioned to draw Iron Man with Reference.</p>
+				</div>
+			  </div>
+			  <div class="slider-img">
+				<img src="assets/jampongicon.png" alt="3" />
+				<div class="details">
+				  <h2>Icon</h2>
+				  <p>Personal Icon used in Games and other things</p>
+				</div>
+			  </div>
+			  <div class="slider-img">
+				<img src="assets/tori.png" alt="4" />
+				<div class="details">
+				  <h2>Photo Manipulation</h2>
+				  <p>Combination of Different Stock Pictures using Adobe Photoshop.</p>
+				</div>
+			  </div>
+			  <div class="slider-img active">
+				<img src="assets/Kazari's Mask.png" alt="5" />
+				<div class="details">
+				  <h2>Digital Fan Art</h2>
+				  <p>A fan art for the game Genshin Impact made in Krita.</p>
+				</div>
+			  </div>
+			  <div class="slider-img">
+				<img src="assets/kobe.png" alt="6" />
+				<div class="details">
+				  <h2>Photo Editing</h2>
+				  <p>Color Correction and Combination of different photos into one.</p>
+				</div>
+			  </div>
+			  <div class="slider-img">
+				<img src="assets/ws.png" alt="7" />
+				<div class="details">
+				  <h2>LOGO</h2>
+				  <p>Commissioned to make a logo for a business named Wacky Shots website with customer preferred Cat in the hat Reference.</p>
+				</div>
+			  </div>
+			  <div class="slider-img">
+				<img src="assets/kamadoraiden1.png" alt="8" />
+				<div class="details">
+				  <h2>Digital Fan Art</h2>
+				  <p>Another Fan Art commissioned for the game Genshin Impact.</p>
+				</div>
+			  </div>
+			  <div class="slider-img">
+				<img src="assets/parry hotter.jpg" alt="9" />
+				<div class="details">
+				  <h2>Charcoal Drawing</h2>
+				  <p>Commisioned Charcoal Drawing of Harry Potter.</p>
+				</div>
+			  </div>
+			</div>
+		  </section>
+		  <div class="video-container">
+			<video controls>
+			  <source src="assets/Clip.mp4" type="video/mp4">
+			</video>
+			<div class="info">
+			  <h2>Video Editing</h2>
+			  <p>These are one of the examples of my previous works, They are mostly the same, Game Highlights, Memes, etc.</p>
+			</div>
+		  </div>
+		  <div class="video-container">
+			<video controls>
+			  <source src="assets/info.mp4" type="video/mp4">
+			</video>
+			<div class="info">
+			  <h2>Content Creation</h2>
+			  <p>These are one of the examples of my previous works, They are mostly the same, Game Highlights, Memes, etc. (Filipino Language)</p>
+			</div>
+		  </div>
+		  <div class="video-container">
+			<video controls>
+			  <source src="assets/nktr.mp4" type="video/mp4">
+			</video>
+			<div class="info">
+			  <h2>Contect Creation</h2>
+			  <p>These are one of the examples of my previous works, They are mostly the same, Game Highlights, Memes, etc.(Filipino Language)</p>
+			</div>
+		  </div>
+	</div>
+	<section class="fxvid">
+		<div class="main" id="fxvid">
+			<video autoplay loop muted>
+				<source id="fvid" src="assets/fff.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			  </video>
+			<div class="fxvid-text">
+				<h2 class="glitch" data-value="SPECIALFX">SPECIALFX</h2>
+				<h5>Special FX on <span>Adobe Premiere and After Effects</span></h5>
+			</div>
+		</div>
+	</section>
 	<div class="contact-me">
 		<p id="cjump">Refer to my Contact number for further Inquiries:</p>
 		<a class="button-two" id="openModalBtn">Open Contact</a>
@@ -183,11 +233,14 @@
 </body>
 <script src="app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.15.0/dist/core.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-</html>
-<!-- 
-	Name: Jet Roe San Pedro
-	Section: 3DG2
- -->
+<script src="jQuery.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".slider-img").on("click", function () {
+          $(".slider-img").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
 
+</html>
