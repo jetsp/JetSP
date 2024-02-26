@@ -598,3 +598,62 @@ html{
 }
 
 
+.logo-design {
+	width: 100%;
+	padding: 100px 0px;
+	background-image: url('assets/ionred.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden; /* Add this to hide the text before animation */
+  }
+ 
+.logo-design img{
+	height: auto;
+	width: 430px;
+}
+
+.logo-design-text{
+	width: 550px;
+	margin: 0 auto;
+	text-align: center;
+  }
+  
+
+.logo-container{
+	width: 1530px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+.logo-design-text h2{
+	color: white;
+	font-size: 90px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px red, 0 0 25px red, 0 0 30px red, 0 0 35px red
+}
+
+.logo-design-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 35px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+
+.logo-design-text p{
+	color: rgb(255, 255, 255);
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 25px;
+	margin-bottom: 45px;
+}
+
+#CC{
+	width: 70%;
+}
