@@ -597,7 +597,7 @@ html{
 	margin-bottom: 25px;
 	text-transform: capitalize;
 }
-
+  
 
 .logo-design {
 	width: 100%;
@@ -610,7 +610,7 @@ html{
  
 .logo-design img{
 	height: auto;
-	width: 430px;
+	width: 50%;
 }
 
 .logo-design-text{
@@ -646,14 +646,26 @@ html{
 	text-transform: capitalize;
 }
 
-.logo-design-text p{
+.logo-design-text p {
 	color: rgb(255, 255, 255);
 	letter-spacing: 1px;
 	line-height: 28px;
 	font-size: 25px;
 	margin-bottom: 45px;
-}
+	background-color: #1f1f1f; /* Background color of the console container */
+	padding: 15px; /* Padding inside the container */
+	border-radius: 5px; /* Rounded corners for the container */
+	border: 2px solid #444; /* Border around the container */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow for the container */
+  }
 
-#CC{
-	width: 70%;
-}
+.code {
+	font-family: 'Courier New', Courier, monospace; /* Use a monospaced font */
+	font-size: 14px; /* Adjust font size as needed */
+	color: #c5c8c6; /* Adjust text color */
+	background-color: #1e1e1e; /* Adjust background color */
+	padding: 10px; /* Add padding for spacing */
+	border-radius: 5px; /* Add rounded corners */
+	border: 1px solid #3b3b3b; /* Add border for distinction */
+	white-space: pre-wrap; /* Preserve line breaks */
+  }
